@@ -30,19 +30,6 @@ body {
   font-family: "Caveat", cursive;
 }
 
-@keyframes marquee-slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.marquee-track {
-  animation: marquee-slide 45s linear infinite;
-}
-
 .grain-overlay {
   position: fixed;
   inset: 0;

@@ -3,7 +3,6 @@ import Lenis from "lenis";
 import "@/App.css";
 import { AuroraBackground } from "@/components/AuroraBackground";
 import { Hero } from "@/components/Hero";
-import { Marquee } from "@/components/Marquee";
 import { Letter } from "@/components/Letter";
 import { Signature } from "@/components/Signature";
 
@@ -28,7 +27,6 @@ function App() {
       <div className="grain-overlay" aria-hidden="true" />
       <main className="relative z-10">
         <Hero />
-        <Marquee />
         <Letter />
         <Signature />
       </main>

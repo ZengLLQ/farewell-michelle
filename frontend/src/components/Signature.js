@@ -31,14 +31,5 @@ export const Signature = () => (
     >
       — jaycee
     </motion.p>
-    <motion.p
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{ duration: 1, delay: 0.8 }}
-      className="font-heading text-[10px] tracking-[0.35em] uppercase text-white/30 mt-16"
-    >
-      made with luv, for ur china era ✦ 2026
-    </motion.p>
   </section>
 );
