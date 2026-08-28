@@ -36,9 +36,8 @@ export const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.7 }}
-            className="flex items-center justify-between"
+            className="flex items-center justify-end"
           >
-            <p className="font-heading text-xs sm:text-sm text-white/60 tracking-widest">@from.jaycee</p>
             <div data-testid="scroll-hint" className="flex items-center gap-2 text-purple-200/70">
               <span className="font-heading text-[10px] tracking-[0.3em] uppercase">scroll</span>
               <motion.span
