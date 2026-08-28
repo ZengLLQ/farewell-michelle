@@ -25,7 +25,7 @@ export const Hero = () => {
     <section className="min-h-[100svh] flex items-center justify-center px-4 py-10">
       <motion.div style={{ y, opacity }} className="w-full max-w-lg">
         <GlassCard className="px-7 py-12 sm:px-10 sm:py-16" data-testid="hero-card">
-          <h1 data-testid="hero-heading" className="font-heading font-bold tracking-tighter text-white leading-[1.02] mb-10 sm:mb-14">
+          <h1 data-testid="hero-heading" className="font-heading font-semibold tracking-tight text-white leading-[1.05] mb-10 sm:mb-14">
             {lines.map((line, i) => (
               <MaskedLine key={line} text={line} delay={0.45 + i * 0.18} className="text-5xl sm:text-6xl lg:text-7xl" />
             ))}

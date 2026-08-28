@@ -20,7 +20,7 @@ export const Letter = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
             transition={{ duration: 0.8 }}
-            className="font-serif text-lg sm:text-xl leading-loose text-gray-200"
+            className="font-apple text-[17px] sm:text-lg leading-8 tracking-[-0.01em] text-gray-100/90"
           >
             {p}
           </motion.p>

@@ -16,7 +16,7 @@ export const Signature = () => (
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1, delay: 0.2 }}
-      className="font-serif italic text-lg sm:text-xl text-gray-300 mb-10 max-w-sm leading-relaxed"
+      className="font-apple text-base sm:text-lg text-gray-200/90 mb-10 max-w-sm leading-relaxed"
     >
       take care of urself, sis. see u when i see u.
     </motion.p>
