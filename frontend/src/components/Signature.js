@@ -18,7 +18,7 @@ export const Signature = () => (
       transition={{ duration: 1, delay: 0.2 }}
       className="font-apple text-base sm:text-lg text-gray-200/90 mb-10 max-w-sm leading-relaxed"
     >
-      take care of urself, sis. see u when i see u. see u on top.
+      keep in touch, you see u when i see you
     </motion.p>
     <motion.p
       data-testid="signature"

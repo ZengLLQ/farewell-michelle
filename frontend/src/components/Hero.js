@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { GlassCard } from "./GlassCard";
 
-const lines = ["hey, sis.", "hope it's not", "going to be cringe"];
+const lines = ["hey,", "hope it's not", "gonna be cringe"];
 
 const MaskedLine = ({ text, delay, className }) => (
   <div className="overflow-hidden">
@@ -38,7 +38,7 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 1.7 }}
             className="flex items-center justify-between"
           >
-            <p data-testid="hero-name" className="font-heading text-sm sm:text-base text-purple-100/80 tracking-wide">黃美仙</p>
+            <p data-testid="hero-name" className="font-heading text-sm sm:text-base text-purple-100/80 tracking-wide">@黃美仙</p>
             <div data-testid="scroll-hint" className="flex items-center gap-2 text-purple-200/70">
               <span className="font-heading text-[10px] tracking-[0.3em] uppercase">scroll</span>
               <motion.span
